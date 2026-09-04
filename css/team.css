@@ -2,15 +2,36 @@
     background-color: #f4f4fd;
 }
 
+.team-container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.team-title {
+    margin-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
 .team-item {
     background-color: #ffffff;
+    border-radius: 0 0 4px 4px;
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .team-subtitle {
     letter-spacing: 0.02em;
     text-align: center;
+
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .team-text {
     text-align: center;
+    padding-bottom: 32px;
 }
