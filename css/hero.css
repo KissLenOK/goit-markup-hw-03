@@ -18,7 +18,7 @@
     text-align: center;
 
     max-width: 496px;
-    margin-bottom: 48px;
+    margin: 0 auto 48px;
 }
 
 .hero-btn-order {
@@ -35,6 +35,8 @@
     text-align: center;
     display: block;
     margin: 0 auto;
+
+    border: none;
 }
 
 .hero-btn-order:hover,
